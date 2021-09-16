@@ -29,30 +29,14 @@
 		Botones de acción
 	</h1>
 	
-	<button id = 'LED1On' type="button" onclick="LED1_On();">
+	<button id = 'LED1On' type="button" onclick='document.getElementById("sensor").innerHTML = "ENCENDIDO"'>
 
 		LED1 ON!
 	</button>
 
-	<button id = 'LED1Off' type="button" onclick="LED1_Off();">
+	<button id = 'LED1Off' type="button" onclick='document.getElementById("sensor").innerHTML = "APAGADO"'>
 		LED1_OFF!
 	</button>
 
 	
-
-	<script>
-	
-		
-	function LED1_On() {
-		alert("led on");
-		sensor.log("led on");
-	  
-	}
-	function LED1_Off(){
-		alert("led off");
-		console.log("led off");
-	}
-
-	</script>
-</body>
 </html>
